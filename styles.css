@@ -227,6 +227,24 @@ h1 {
   min-height: 180px;
 }
 
+.quick-contact {
+  background: linear-gradient(90deg, #2e8b57, #1f6a40);
+  color: white;
+  padding: 1rem 0;
+}
+
+.quick-contact-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quick-contact p {
+  margin: 0;
+  font-weight: 700;
+}
+
 .footer {
   background: #163b2b;
   color: #f4fcf7;
@@ -269,7 +287,8 @@ h1 {
 
   .contact-box,
   .footer-content,
-  .services-detail {
+  .services-detail,
+  .quick-contact-inner {
     flex-direction: column;
     align-items: flex-start;
   }
